@@ -1,0 +1,22 @@
+query {
+  etherBalanceByAddress {
+    message
+    result
+  }
+  totalSupplyOfEther {
+    message
+    result
+  }
+  latestEthereumPrice {
+    message
+    result {
+      ethbtc
+      ethusd
+      ethusd_timestamp
+    }
+  }
+  blockConfirmationTime {
+    message
+    result
+  }
+}
